@@ -1,1 +1,1 @@
-https://bgal23.github.io/goit-markup-hw-01/
+https://bgal23.github.io/goit-markup-hw-02/
