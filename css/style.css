@@ -1,30 +1,94 @@
+:root {
+    --black-color: #000000;
+    --white-color: #ffffff;
+    --dark-color: #2F303A;
+    --blue-color: #2196F3;
+    --grey-color: #757575;
+    --light-color: #F5F4FA;
+} 
 body {
-    color: #757575;
+    color: var(--grey-color);
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
-    line-height: 1.71;
     font-weight: 400;
 }
 header {
-    background-color: #ffffff;
+    background-color: var(--white-color);
     font-weight: 500;
+    color: var(--black-color);
+    font-size: 16px;
 }
 footer {
-    background: #2F303A;
-    color: #ffffff;
+    background: var(--dark-color);
+    color: var(--white-color);
+}
+.logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+}
+.logo .blue {
+    color:  var(--blue-color);
 }
 .section-first {
-    background: #2F303A;
-    color: #ffffff;    
+    background: var(--dark-color);
+    color: var(--white-color);
+    font-weight: 900;
+    font-size: 44px;
+}    
+.section-second .font{
+    color: var(--black-color);
+    font-weight: 700;
 }
-.section > h4 {
-    color: #000000;
-}
-.section > h2 {
-    color: #000000;
+.section-third .big-font {
     font-weight: 700;
     font-size: 36px;
+    color: var(--black-color);
 }
-.section-second {
+.section-fourth {
+    font-weight: 500;
     font-size: 16px;
+}
+.section-fourth .big-font {
+    font-weight: 700;
+    font-size: 36px;
+    color: var(--black-color);
+}
+.section-fourth .font {
+    font-weight: 500;
+    color: var(--black-color);
+}
+.section-fifth {
+    font-size: 16px;
+}
+.section-fifth .font{
+    font-weight: 700;
+    font-size: 18px;
+    color:  var(--black-color);
+}
+a {
+    text-decoration: none;
+    color: var(--black-color);
+}
+.link:hover {
+    color: var(--blue-color);
+}
+.link-2 {
+    color: var(--grey-color)
+}
+.link-2:hover {
+    color: var(--blue-color);
+}
+button {
+    background: var(--blue-color);
+    color: var(--white-color);
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+}
+button:hover {
+    background: var(--light-color);
+    color: var(--black-color);
 }
