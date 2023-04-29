@@ -46,6 +46,7 @@ footer {
     color: var(--black-color);
 }
 .section-fourth {
+    background: var(--light-color);
     font-weight: 500;
     font-size: 16px;
 }
@@ -80,15 +81,20 @@ a {
     color: var(--blue-color);
 }
 button {
-    background: var(--blue-color);
-    color: var(--white-color);
+    background: var(--light-color);
+    color: var(--black-color);
     cursor: pointer;
     font-weight: 500;
     font-size: 16px;
     border-radius: 4px;
     border: none;
+    font-family: 'Roboto', sans-serif;
 }
 button:hover {
-    background: var(--light-color);
-    color: var(--black-color);
+    background: var(--blue-color);
+    color: var(--light-color);
+}
+.order {
+    background: var(--blue-color);
+    color: var(--light-color);
 }
